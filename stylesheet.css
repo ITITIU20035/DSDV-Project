@@ -1,0 +1,42 @@
+/*Charts part*/
+.chart-container {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the charts */
+}
+.bar {
+    fill: steelblue;
+}
+.bar text {
+    fill: white;
+    font-size: 12px;
+    text-anchor: end;
+}
+.dot {
+    fill: red;
+}
+.line {
+    fill: none;
+    stroke: green;
+    stroke-width: 2;
+}
+  #param-descrip {
+    font-size: 20px;
+    display: inline-table;
+    vertical-align: middle;
+    height: 45px;
+  }
+  button.ui-btn.ui-btn-inline.ui-btn-active, div #param-select-button {
+    color: white;
+    background: #323232;
+}
+button.ui-btn.ui-btn-inline:hover {
+    opacity: .75;
+}
+div.ui-slider-bg.ui-btn-active {
+    background: #1D96E7;
+}
+header {
+    text-align: center;
+    padding: 30px;
+}
